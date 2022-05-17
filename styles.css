@@ -189,7 +189,7 @@ p {
   border-style: solid;
   border-color: #d5eeee;
   border-width: 1.5px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #d5eeee;
   font-weight: 300;
@@ -213,7 +213,7 @@ p {
   margin: 2em 0;
 }
 
-.contact-content a {
+.contact-link {
   font-size: 1.5rem;
   color: #d5eeee;
   text-decoration: none;
