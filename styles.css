@@ -190,6 +190,7 @@ p {
   border-radius: 0.5em;
   border: none;
   font-size: 1.3rem;
+  outline: none;
 }
 
 .contact-button {
