@@ -67,7 +67,7 @@ nav {
 .intro-section {
   width: 100%;
   height: 86vh;
-  padding-left: 4em;
+  padding: 0 4em;
   align-items: center;
   justify-content: space-between;
 }
@@ -247,5 +247,15 @@ p {
 
   .intro-image {
     display: none;
+  }
+}
+
+@media (max-width: 486px) {
+  header,
+  .intro-section,
+  .about-content,
+  .project-content,
+  .contact-content {
+    padding: 0 1.5em;
   }
 }
