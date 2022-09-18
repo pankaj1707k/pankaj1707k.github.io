@@ -173,6 +173,8 @@ p {
 
 .card-img-top {
   background-color: #203a43;
+  min-height: 55%;
+  object-fit: cover;
 }
 
 .card-body {
