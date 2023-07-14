@@ -17,7 +17,6 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-transparent navbar-dark justify-content-between">
-            <div class="navbar-brand text-light">Pankaj</div>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +28,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
                             <a href="#about" class="nav-link px-3">About</a>
                         </li>
@@ -47,12 +46,12 @@
 
     <div class="container-fluid intro-section d-flex">
         <div class="intro-frame">
-            <p class="intro-greet">Hi,</p>
+            <p class="intro-greet">hi &#x1F44B;</p>
             <p class="intro-main">I'm <span class="intro-name">Pankaj Kumar</span></p>
-            <p class="intro-dev">A Web Developer</p>
+            <p class="intro-dev">a software developer</p>
             <button class="resume-button"
                 onclick="window.location.href='https://drive.google.com/file/d/1npsRCcRqEcgh1Q_s9YwBtXGyFIypFDCo/view'">
-                My Resume
+                Resume
             </button>
         </div>
         <div class="intro-image-frame">
@@ -61,28 +60,44 @@
     </div>
 
     <div class="container-fluid about-section" id="about">
-        <div class="section-heading display-3">About</div>
+        <div class="section-heading display-3">about</div>
         <div class="about-content d-flex">
             <div class="about-image-frame">
                 <img src="images/about-image.jpg" alt="about-image" class="about-image">
             </div>
-            <div class="about-text">Hey there! I'm Pankaj Kumar, an enthusiatic web developer from Rajasthan, India.
-                I have intermediate skills in backend development and basic skills in frontend, however, I am more
-                inclined towards backend development. I have intermediate skills in Django and Django REST framework and
-                can also adapt to other frameworks.
+            <div class="about-text">
+                Hello visitor &#x1F44B; I am Pankaj Kumar, a passionate software developer specializing in 
+                back-end development. With a solid foundation in programming languages such as Python, 
+                JavaScript, Java, and C/C++, I enjoy tackling complex problems and transforming ideas into 
+                functional applications. Beyond my technical expertise, I am an enthusiastic open source 
+                contributor, actively participating in collaborative projects. Currently, I am a student 
+                pursuing Information Technology at the prestigious Indian Institute of Information Technology Allahabad. 
             </div>
         </div>
     </div>
 
     <div class="container-fluid project-section" id="projects">
-        <div class="section-heading display-3">My Projects</div>
+        <div class="section-heading display-3">my projects</div>
         <div class="project-content d-grid">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
                 <div class="col">
                     <div class="card h-100">
+                        <img src="images/cloud-monitor.jpg" alt="Cloud monitoring" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">cloud monitor</h5>
+                            <p class="card-text">
+                                A system monitoring tool to check runtime integrity of linux-based virtual 
+                                machines for cloud platforms.
+                            </p>
+                            <a href="https://github.com/pankaj1707k/cloud-monitor" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
                         <img src="images/codebuddy.jpg" alt="Codebuddy" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Codebuddy</h5>
+                            <h5 class="card-title">codebuddy</h5>
                             <p class="card-text">
                                 A team building + project management tool for developers. Integrates the process of
                                 finding peer devs/mentors and managing the project with the team.
@@ -95,7 +110,7 @@
                     <div class="card h-100">
                         <img src="images/sociolite.jpg" alt="Social network project" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Sociolite - Backend</h5>
+                            <h5 class="card-title">sociolite</h5>
                             <p class="card-text">A social media REST API built in Django. Features JWT authentication,
                                 CRUD for posts, comments, likes etc.
                             </p>
@@ -108,7 +123,7 @@
                         <img src="images/bank-management-project.jpg" alt="Bank management project"
                             class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Banking Management - Backend</h5>
+                            <h5 class="card-title">banking management</h5>
                             <p class="card-text">A simple banking system that allows for deposits, withdrawals and money
                                 tranfers. REST API backend built in Django.
                             </p>
@@ -121,7 +136,7 @@
                     <div class="card h-100">
                         <img src="images/servo.png" alt="Servo image" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Servo - Backend</h5>
+                            <h5 class="card-title">servo</h5>
                             <p class="card-text">A complaint management system to digitalize the complaint lodging and
                                 resolving process in student hostels. REST API backend built in Django.
                             </p>
@@ -133,7 +148,7 @@
                     <div class="card h-100">
                         <img src="images/polygon-area-calc.jpg" alt="Nested triangles" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">Polygon Area Calculator</h5>
+                            <h5 class="card-title">polygon area calculator</h5>
                             <p class="card-text">This is an interactive polygon area calculator developed using Java and
                                 Swing. The application allows the user to manipulate a given square by dragging its
                                 vertices.
@@ -143,25 +158,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/sci-fi-wonders.png" alt="Nested triangles" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sci-Fi Wonders</h5>
-                            <p class="card-text">
-                                A simple static webpage built using HTML, CSS and JS. The webpage shows some popular
-                                movie cards with animations.
-                            </p>
-                            <a href="https://pankaj1707k.github.io/sci-fi-wonders/" class="stretched-link"></a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
     <div class="container-fluid contact-section" id="contact">
-        <div class="section-heading display-3">Contact Me</div>
+        <div class="section-heading display-3">contact me</div>
         <div class="contact-content d-grid">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
